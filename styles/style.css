@@ -16,7 +16,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2 ;
+  background-color:#f2f2f2 ;
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -61,7 +61,7 @@
 }
 
 .header__link {
-  color: #2f80ed ;
+  color:#2f80ed ;
 }
 
 .header__main_illustration {
@@ -74,7 +74,6 @@
   bottom: 0px;
   z-index: 2;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -92,7 +91,7 @@
 }
 .description {
   width: 100%;
-  background-color: white ;
+  background-color:white ;
   display: flex;
   justify-content: center;
 }
@@ -137,7 +136,7 @@
   font-weight: bold;
 }
 .digits {
-  background-color: white ;
+  background-color:white ;
   width: 100%;
   display: flex;
   align-items: center;
@@ -203,7 +202,7 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .feynman {
   width: 100%;
@@ -228,7 +227,7 @@
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
-  margin:70px auto auto auto ;
+  margin: 70px auto auto auto;
   z-index: 2;
   }
 .feynman__link {
@@ -289,11 +288,6 @@ z-index: 4;
 .table_theme_dark {
   margin: 0px auto 90px auto;
   z-index: 4;
-
-}
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
 }
 .table__heading_theme_dark {
   font-size: 24px;
