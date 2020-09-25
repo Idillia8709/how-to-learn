@@ -1,0 +1,9 @@
+@import url('../digits/__text/digits__text.css');
+.digits {
+  background-color:white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
